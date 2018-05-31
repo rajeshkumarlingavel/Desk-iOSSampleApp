@@ -1,0 +1,7 @@
+
+target 'DeskSDKDemo' do
+  use_frameworks!
+  pod 'ZohoAuth'
+  pod 'ZohoDeskUIKit'
+
+end

@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3C56CD5D01140F4F3BDA86 /* Pods_DeskSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A110C467C2858F6721E3602 /* Pods_DeskSDKDemo.framework */; };
+		92322C0D20A44050003272E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92322C0C20A44050003272E3 /* Main.storyboard */; };
+		927D267220AAF1DA00D692A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D267120AAF1DA00D692A8 /* DetailViewController.swift */; };
+		9285B56620BDDE6A002182FB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9285B56520BDDE6A002182FB /* HeaderView.swift */; };
+		92B64AA320A053DD00B19060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B64AA220A053DD00B19060 /* AppDelegate.swift */; };
+		92B64AA520A053DD00B19060 /* TicketListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B64AA420A053DD00B19060 /* TicketListController.swift */; };
+		92B64AAD20A053E400B19060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B64AAC20A053E400B19060 /* Assets.xcassets */; };
+		92B64AB020A053E400B19060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B64AAE20A053E400B19060 /* LaunchScreen.storyboard */; };
+		92EC563320B938610019298C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC563220B938610019298C /* HomeController.swift */; };
+		92EC563C20B958AC0019298C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC563B20B958AC0019298C /* Constant.swift */; };
+		92EC564020B964A20019298C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC563F20B964A20019298C /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A110C467C2858F6721E3602 /* Pods_DeskSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeskSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92086CC120C07D4E00496690 /* ZohoDeskSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92086CC320C07D4E00496690 /* ZohoDeskUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92322C0C20A44050003272E3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		927D267120AAF1DA00D692A8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9285B56520BDDE6A002182FB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		92B64A9F20A053DD00B19060 /* DeskSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B64AA220A053DD00B19060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B64AA420A053DD00B19060 /* TicketListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketListController.swift; sourceTree = "<group>"; };
+		92B64AAC20A053E400B19060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B64AAF20A053E400B19060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B64AB120A053E400B19060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B64B1720A16E1D00B19060 /* DeskSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeskSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		92EC563220B938610019298C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		92EC563B20B958AC0019298C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		92EC563F20B964A20019298C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B475A4C4FEA05804C5BF3C23 /* Pods-DeskSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeskSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeskSDKDemo/Pods-DeskSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF6B15240AC6776313DCCFDB /* Pods-DeskSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeskSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeskSDKDemo/Pods-DeskSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B64A9C20A053DD00B19060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C56CD5D01140F4F3BDA86 /* Pods_DeskSDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1187EEB59099CB8E9DFCAEF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B15240AC6776313DCCFDB /* Pods-DeskSDKDemo.debug.xcconfig */,
+				B475A4C4FEA05804C5BF3C23 /* Pods-DeskSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16DE5EF9752C797765079748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92086CC120C07D4E00496690 /* ZohoDeskSDK.framework */,
+				92086CC320C07D4E00496690 /* ZohoDeskUIKit.framework */,
+				8A110C467C2858F6721E3602 /* Pods_DeskSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9285B57020BDE4B7002182FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92EC563220B938610019298C /* HomeController.swift */,
+				92B64AA420A053DD00B19060 /* TicketListController.swift */,
+				927D267120AAF1DA00D692A8 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9285B57120BDE4C9002182FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9285B56520BDDE6A002182FB /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9285B57220BDE4D2002182FB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				92B64AAC20A053E400B19060 /* Assets.xcassets */,
+				92B64AAE20A053E400B19060 /* LaunchScreen.storyboard */,
+				92322C0C20A44050003272E3 /* Main.storyboard */,
+				92EC563B20B958AC0019298C /* Constant.swift */,
+				92EC563F20B964A20019298C /* Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		92B64A9620A053DD00B19060 = {
+			isa = PBXGroup;
+			children = (
+				92B64AA120A053DD00B19060 /* DeskSDKDemo */,
+				92B64AA020A053DD00B19060 /* Products */,
+				1187EEB59099CB8E9DFCAEF9 /* Pods */,
+				16DE5EF9752C797765079748 /* Frameworks */,
+				92B64B1720A16E1D00B19060 /* DeskSDKDemo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		92B64AA020A053DD00B19060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B64A9F20A053DD00B19060 /* DeskSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B64AA120A053DD00B19060 /* DeskSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				92B64AA220A053DD00B19060 /* AppDelegate.swift */,
+				9285B57020BDE4B7002182FB /* Controller */,
+				9285B57120BDE4C9002182FB /* Views */,
+				9285B57220BDE4D2002182FB /* Utility */,
+				92B64AB120A053E400B19060 /* Info.plist */,
+			);
+			path = DeskSDKDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B64A9E20A053DD00B19060 /* DeskSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B64ACA20A053E500B19060 /* Build configuration list for PBXNativeTarget "DeskSDKDemo" */;
+			buildPhases = (
+				853E3DDEF1ECC66F1A4BAE3F /* [CP] Check Pods Manifest.lock */,
+				92B64A9B20A053DD00B19060 /* Sources */,
+				92B64A9C20A053DD00B19060 /* Frameworks */,
+				92B64A9D20A053DD00B19060 /* Resources */,
+				19710A6CCAF3101C847B5246 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeskSDKDemo;
+			productName = ExtenalDeskSDKDemo;
+			productReference = 92B64A9F20A053DD00B19060 /* DeskSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B64A9720A053DD00B19060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "rajesh-2098";
+				TargetAttributes = {
+					92B64A9E20A053DD00B19060 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 92B64A9A20A053DD00B19060 /* Build configuration list for PBXProject "DeskSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B64A9620A053DD00B19060;
+			productRefGroup = 92B64AA020A053DD00B19060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B64A9E20A053DD00B19060 /* DeskSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B64A9D20A053DD00B19060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92322C0D20A44050003272E3 /* Main.storyboard in Resources */,
+				92B64AB020A053E400B19060 /* LaunchScreen.storyboard in Resources */,
+				92B64AAD20A053E400B19060 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19710A6CCAF3101C847B5246 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeskSDKDemo/Pods-DeskSDKDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZohoDeskSDK/ZohoDeskSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/ZohoDeskUIKit/ZohoDeskUIKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZohoDeskUIKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeskSDKDemo/Pods-DeskSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853E3DDEF1ECC66F1A4BAE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeskSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B64A9B20A053DD00B19060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B64AA520A053DD00B19060 /* TicketListController.swift in Sources */,
+				92B64AA320A053DD00B19060 /* AppDelegate.swift in Sources */,
+				9285B56620BDDE6A002182FB /* HeaderView.swift in Sources */,
+				92EC563320B938610019298C /* HomeController.swift in Sources */,
+				92EC563C20B958AC0019298C /* Constant.swift in Sources */,
+				927D267220AAF1DA00D692A8 /* DetailViewController.swift in Sources */,
+				92EC564020B964A20019298C /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B64AAE20A053E400B19060 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B64AAF20A053E400B19060 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B64AC820A053E500B19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B64AC920A053E500B19060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B64ACB20A053E500B19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6B15240AC6776313DCCFDB /* Pods-DeskSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/DeskSDKDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeskSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B64ACC20A053E500B19060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B475A4C4FEA05804C5BF3C23 /* Pods-DeskSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/DeskSDKDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeskSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B64A9A20A053DD00B19060 /* Build configuration list for PBXProject "DeskSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B64AC820A053E500B19060 /* Debug */,
+				92B64AC920A053E500B19060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B64ACA20A053E500B19060 /* Build configuration list for PBXNativeTarget "DeskSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B64ACB20A053E500B19060 /* Debug */,
+				92B64ACC20A053E500B19060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B64A9720A053DD00B19060 /* Project object */;
+}
