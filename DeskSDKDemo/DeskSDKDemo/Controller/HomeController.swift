@@ -27,10 +27,9 @@ class HomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        getAllOrganization()
         getToken()
         configurateNavigation()
-        configureViews()
+        configureViews()        
     }
     
     private func configureViews(){
@@ -132,7 +131,7 @@ extension HomeController : UITableViewDelegate,UITableViewDataSource{
     
     // create a cell for each table view row
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as! UITableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) else{return UITableViewCell()}
         cell.textLabel?.text = dataSource?[indexPath.row].name
         return cell
     }
