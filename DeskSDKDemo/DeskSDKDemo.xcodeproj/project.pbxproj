@@ -20,11 +20,26 @@
 		92EC564020B964A20019298C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC563F20B964A20019298C /* Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		923A8C532111C32C002942A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8A110C467C2858F6721E3602 /* Pods_DeskSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeskSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92086CC120C07D4E00496690 /* ZohoDeskSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92086CC320C07D4E00496690 /* ZohoDeskUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92322C0C20A44050003272E3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		923A8C542111C33A002942A0 /* ZohoDeskSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923A8C562111C33A002942A0 /* ZohoDeskUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZohoDeskUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		927D267120AAF1DA00D692A8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9285B56520BDDE6A002182FB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		92B64A9F20A053DD00B19060 /* DeskSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +80,8 @@
 		16DE5EF9752C797765079748 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				923A8C542111C33A002942A0 /* ZohoDeskSDK.framework */,
+				923A8C562111C33A002942A0 /* ZohoDeskUIKit.framework */,
 				92086CC120C07D4E00496690 /* ZohoDeskSDK.framework */,
 				92086CC320C07D4E00496690 /* ZohoDeskUIKit.framework */,
 				8A110C467C2858F6721E3602 /* Pods_DeskSDKDemo.framework */,
@@ -145,6 +162,7 @@
 				92B64A9C20A053DD00B19060 /* Frameworks */,
 				92B64A9D20A053DD00B19060 /* Resources */,
 				19710A6CCAF3101C847B5246 /* [CP] Embed Pods Frameworks */,
+				923A8C532111C32C002942A0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/DeskSDKDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -401,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DeskSDKDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -417,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/DeskSDKDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -425,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.deskSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DeskSDKDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

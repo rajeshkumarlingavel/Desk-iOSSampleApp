@@ -32,6 +32,7 @@ class HomeController: UIViewController {
         configureViews()        
     }
     
+    
     private func configureViews(){
         
         activityIndicatorView?.startAnimating()
@@ -39,6 +40,8 @@ class HomeController: UIViewController {
         activityIndicatorView?.color = .gray
         
         self.tableView?.tableFooterView = UIView()
+        
+        
     }
     
     func configurateNavigation(){

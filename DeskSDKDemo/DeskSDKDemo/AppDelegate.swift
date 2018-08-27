@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,ZDAuthentication {
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
+        // Override point for customization after application launch.
         //Possible options: "ZDDomain.us","ZDDomain.eu"
         let configuration =  SDKConfiguration(domain: ZDDomain.us)
         ZohoDeskSDK(configuration: configuration)
@@ -34,9 +34,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate,ZDAuthentication {
         ]
         
 
-        ZohoAuth.initWithClientID(<#ClientID#>, clientSecret: <#ClientSecret#>, scope: scope, urlScheme: <#URLScheme#>, mainWindow: (UIApplication.shared.delegate?.window)!, accountsURL: <#accountsURL#>)
-        
+        ZohoAuth.initWithClientID(<#ClientID#>, clientSecret:<#ClientSecret#>, scope: scope, urlScheme: <#urlScheme#>, mainWindow: (UIApplication.shared.delegate?.window)!, accountsURL: "https://accounts.zoho.com")
         return true
+        
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {

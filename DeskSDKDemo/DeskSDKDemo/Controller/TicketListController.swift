@@ -70,6 +70,7 @@ class TicketListController: UIViewController {
 
 extension TicketListController:ZDTicketListViewDelegate{
     func didSelectTicket(ticketList: ZDTicketListView, configuration: ZDTicketListConfiguration, ticketId: String, index: Int) {
+
         showDetail(ticketId: ticketId)
     }
     
