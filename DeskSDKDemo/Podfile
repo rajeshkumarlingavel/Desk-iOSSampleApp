@@ -2,8 +2,6 @@
 target 'DeskSDKDemo' do
   use_frameworks!
   pod 'ZohoAuth'
-  pod 'ZohoDeskUIKit', :path => '../../../DeskSDKUIKit'
-  pod 'ZohoDeskSDK', :path => '../../../ZohoDeskSDK'
-  #pod 'ZohoDeskSDKInhouse', :path => '../../../ZohoDeskSDK_Inhouse'
-
+  pod 'ZohoDeskUIKit'
+  pod 'ZohoDeskSDK'
 end
